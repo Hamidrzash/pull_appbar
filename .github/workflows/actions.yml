@@ -17,14 +17,16 @@ jobs:
         with:
           channel: 'stable'
 
-      - run: cd example
-      - run: flutter clean
-      - run: flutter pub get
-      - run: flutter --version
-      - run: flutter build web --release
+      - run: |
+          cd example
+          flutter clean
+          flutter pub get
+          flutter --version
+          flutter build web --release
 
       # Web deploy now is contained in build/web directory
       - run: |
+          cd example
           cd build
           mkdir web-deploy
           cd web-deploy
