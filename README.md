@@ -1,39 +1,38 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# PullAppBar
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+PullAppBar is a Flutter package that enhances app navigation by allowing users to change page content dynamically by pulling the app bar. It provides a smooth and interactive user experience with customizable titles and pages.
 
 ## Features
+![PullAppBar](https://github.com/Hamidrzash/pull_appbar/blob/main/assets/preview.gif)
+- Change page content by pulling the app bar
+- Smooth transitions and animations
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+## Installation
 
-## Getting started
+Add `pull_appbar` to your `pubspec.yaml` dependencies. And import it:
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+```dart
+import 'package:pull_appbar/pull_appbar.dart';
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Simply create a `PullAppBar` widget, and pass the required params:
 
 ```dart
-const like = 'sample';
+PullAppBar(
+      titles: const [
+        Text('Title1'),
+        Text('Title2'),
+        Text('Title3'),
+        Text('Title4'),
+      ],
+      onPageChanged: (value) => print(value),
+      children: const [
+        Center(child: Text('Page1')),
+        Center(child: Text('Page2')),
+        Center(child: Text('Page3')),
+        Center(child: Text('Page4')),
+      ],
+    ),
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
