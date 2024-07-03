@@ -1,4 +1,4 @@
-## 0.0.1
+## 0.1.0
 
 - Initial release of PullAppBar.
 - Change page content by pulling the app bar.
