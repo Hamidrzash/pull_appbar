@@ -1,6 +1,6 @@
 # PullAppBar
 
-PullAppBar is a Flutter package that enhances app navigation by allowing users to change page content dynamically by pulling the app bar. It provides a smooth and interactive user experience with customizable titles and pages.
+📱 PullAppBar is a Flutter package that enhances app navigation by allowing users to change page content dynamically by pulling the app bar. It provides a smooth and interactive user experience with customizable titles and pages.
 
 ## Features
 ![PullAppBar](https://raw.githubusercontent.com/Hamidrzash/pull_appbar/main/assets/preview.gif)

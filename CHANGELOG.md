@@ -1,3 +1,11 @@
+## 0.1.2
+
+- Updated example
+
+## 0.1.1
+
+- Updated readme.md
+
 ## 0.1.0
 
 - Initial release of PullAppBar.
