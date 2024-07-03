@@ -1,3 +1,7 @@
+## 0.1.3
+
+- Added Live Example
+- 
 ## 0.1.2
 
 - Updated example
