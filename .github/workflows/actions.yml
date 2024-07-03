@@ -17,6 +17,7 @@ jobs:
         with:
           channel: 'stable'
 
+      - run: cd example
       - run: flutter clean
       - run: flutter pub get
       - run: flutter --version
