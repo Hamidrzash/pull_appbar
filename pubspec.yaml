@@ -2,6 +2,13 @@ name: pull_appbar
 description: "Transform your app's navigation with PullAppBar! Effortlessly change page content by pulling the app bar for a dynamic user experience."
 version: 0.1.0
 homepage: https://github.com/Hamidrzash/pull_appbar
+issue_tracker: https://github.com/Hamidrzash/pull_appbar/issues
+topics:
+  - animation
+  - ui
+  - effects
+  - widgets
+  - widget
 
 environment:
   sdk: '>=3.3.2 <4.0.0'

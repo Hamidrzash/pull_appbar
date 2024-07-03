@@ -63,7 +63,7 @@ class _PullAppBarState extends State<PullAppBar> {
           selectedTitleIndex.value = (_appBarController.page ?? 0).round();
           _appBarController.animateToPage(selectedTitleIndex.value,
               duration: const Duration(milliseconds: 250), curve: Curves.easeInOut);
-          pageIndex.value = selectedTitleIndex.value;
+          pageIndex.value = widget.titleItems[selectedTitleIndex.value].index;
         }
       });
     }
